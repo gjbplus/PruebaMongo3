@@ -40,19 +40,21 @@ PruebaMongo3/
 mvn compile exec:java -Dexec.mainClass="Main"
 ```
 ## 💻 Ejecución en IntelliJ IDEA
-Abrir IntelliJ y seleccionar File → Open...  
-Elegir la carpeta PruebaMongo3 clonada.
-IntelliJ detectará automáticamente el proyecto Maven.
 
-Configurar SDK:
-Ir a File → Project Structure → Project SDK y seleccionar Java 21.
+1. Abrir **IntelliJ IDEA** y seleccionar **File → Open...**  
+   Elegir la carpeta `PruebaMongo3` clonada.  
+   IntelliJ detectará automáticamente el proyecto Maven.
 
-Verificar dependencias Maven:
-Si no se descargan automáticamente, clic derecho en pom.xml → Add as Maven Project.
+2. **Configurar SDK**  
+   Ir a **File → Project Structure → Project SDK** y seleccionar **Java 21**.
 
-Ejecutar:
-Asegurarse de que MongoDB esté corriendo en localhost:27017.
-Ir a Main.java, clic derecho → Run 'Main.main()'.
+3. **Verificar dependencias Maven**  
+   Si no se descargan automáticamente, clic derecho en `pom.xml` → **Add as Maven Project**.
+
+4. **Ejecutar la aplicación**  
+   Asegurarse de que **MongoDB** esté corriendo en `localhost:27017`.  
+   Ir a `Main.java`, clic derecho → **Run 'Main.main()'**.
+
 ---
 
 ## 📖 Funcionalidades del menú
